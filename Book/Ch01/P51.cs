@@ -8,5 +8,9 @@ namespace Book.Ch01
 {
     internal class P51
     {
+        static void Main2(string[] args)
+        {
+
+        }
     }
 }
