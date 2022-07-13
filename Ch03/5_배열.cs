@@ -53,8 +53,52 @@ namespace Ch03
             Console.WriteLine();
 
             // 1차원 배열
+            int[] arr1d = { 10, 20, 30, 40, 50 };
+
+            int total = 0;
+
+            foreach (int n in arr1d)
+            {
+                total += n;
+            }
+
+            Console.WriteLine("arr1d 총합 : " + total);
+
             // 2차원 배열
-            // 3차원 배열                
+            int[,] arr2d = {{1,  2,  3,  4},
+                            {5,  6,  7,  8}, 
+                            {9, 10, 11, 12}};
+
+            Console.WriteLine("arr2d[0,0] : " + arr2d[0,0]);
+            Console.WriteLine("arr2d[0,2] : " + arr2d[0,2]);
+            Console.WriteLine("arr2d[1,2] : " + arr2d[1,2]);
+            Console.WriteLine("arr2d[2,3] : " + arr2d[2,3]);
+
+            // 3차원 배열
+            int[,,] arr3d = { { 
+                                { 1, 2, 3 }, 
+                                { 4, 5, 6 }, 
+                                { 7, 8, 9 } 
+                              }, 
+                              { 
+                                {10, 11, 12},
+                                {13, 14, 15},
+                                {16, 17, 18}
+                              }, 
+                              { 
+                                {19, 20, 21},
+                                {22, 23, 24},
+                                {25, 26, 27}
+                              } 
+                             };
+
+            // 3, 5, 11, 17, 25 출력
+            Console.WriteLine("arr3d[0,0,2] : " + arr3d[0,0,2]);
+            Console.WriteLine("arr3d[0,1,1] : " + arr3d[0,1,1]);
+            Console.WriteLine("arr3d[1,0,1] : " + arr3d[1,0,1]);
+            Console.WriteLine("arr3d[1,2,1] : " + arr3d[1,2,1]);
+            Console.WriteLine("arr3d[2,2,0] : " + arr3d[2,2,0]);
+
         }
     }
 }
