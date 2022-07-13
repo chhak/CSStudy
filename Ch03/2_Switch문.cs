@@ -13,7 +13,7 @@ namespace Ch03
 {
     internal class _2_Switch문
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Console.Write("숫자 입력 : ");
             string strNum = Console.ReadLine();
