@@ -1,0 +1,15 @@
+C:\Users\502\Desktop\CSStudy\Backjun\bin\Debug\net6.0\Backjun.exe
+C:\Users\502\Desktop\CSStudy\Backjun\bin\Debug\net6.0\Backjun.deps.json
+C:\Users\502\Desktop\CSStudy\Backjun\bin\Debug\net6.0\Backjun.runtimeconfig.json
+C:\Users\502\Desktop\CSStudy\Backjun\bin\Debug\net6.0\Backjun.dll
+C:\Users\502\Desktop\CSStudy\Backjun\bin\Debug\net6.0\Backjun.pdb
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\Backjun.csproj.AssemblyReference.cache
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\Backjun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\Backjun.AssemblyInfoInputs.cache
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\Backjun.AssemblyInfo.cs
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\Backjun.csproj.CoreCompileInputs.cache
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\Backjun.dll
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\refint\Backjun.dll
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\Backjun.pdb
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\Backjun.genruntimeconfig.cache
+C:\Users\502\Desktop\CSStudy\Backjun\obj\Debug\net6.0\ref\Backjun.dll

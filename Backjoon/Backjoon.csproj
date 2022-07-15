@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="10단계\" />
+    <Folder Include="09단계\" />
+    <Folder Include="08단계\" />
+    <Folder Include="07단계\" />
+    <Folder Include="06단계\" />
+    <Folder Include="05단계\" />
+    <Folder Include="04단계\" />
+    <Folder Include="03단계\" />
+  </ItemGroup>
+
+</Project>
