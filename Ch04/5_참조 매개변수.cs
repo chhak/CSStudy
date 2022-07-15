@@ -15,23 +15,40 @@ namespace Ch04
     {
         static void Main(string[] args)
         {
+            ///////////////////////////////////////
+            // ref 매개변수
+            ///////////////////////////////////////
             int num1 = 10;
             int num2 = 3;
             int num3 = 0;
             int num4 = 0;
 
-            MyDivider(num1, num2, ref num3, ref num4);
+            DividerRef(num1, num2, ref num3, ref num4);
 
-            Console.WriteLine("몫 : {0}, 나머지 : {1}", num3, num4);                       
+            Console.WriteLine("몫 : {0}, 나머지 : {1}", num3, num4);
 
+            ///////////////////////////////////////
+            // out 매개변수
+            ///////////////////////////////////////
+            int var1 = 10;
+            int var2 = 3;
+
+            DividerOut(var1, var2, out int var3, out int var4);
+
+            Console.WriteLine("몫 : {0}, 나머지 : {1}", var3, var4);
 
         }// end of Main
 
-        public static void MyDivider(int n1, int n2, ref int result1, ref int result2)
+        public static void DividerRef(int n1, int n2, ref int result1, ref int result2)
         {
             result1 = n1 / n2;
             result2 = n1 % n2;
         }
 
+        public static void DividerOut(int n1, int n2, out int result1, out int result2)
+        {
+            result1 = n1 / n2;
+            result2 = n1 % n2;
+        }
     }
 }

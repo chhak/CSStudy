@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  */
 namespace Ch04
 {
-    internal class _2_메서드_형태
+    internal class _2_메서드_타입
     {
         static void Main2(string[] args)
         {
