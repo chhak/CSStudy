@@ -50,8 +50,11 @@ namespace Ch05
 
     internal class _3_클래스_변수와_메서드
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
+            ////////////////////////////////////////
+            // Static 키워드 이해
+            ////////////////////////////////////////
             Increment inc1 = new Increment();
             Increment inc2 = new Increment();
             Increment inc3 = new Increment();
@@ -62,18 +65,20 @@ namespace Ch05
             // 클래스 메서드 실행
             Increment.Add();
 
-            // 클래스 변수를 활용한 객체
+            ////////////////////////////////////////
+            // 클래스 변수를 활용
+            ////////////////////////////////////////
             Car car1 = new Car("소나타", "검정", 0);
-            car1.Show();
-
             Car car2 = new Car("아반테", "검정", 0);
-            car2.Show();
-
             Car car3 = new Car("싼타페", "검정", 0);
+
+            car3.Show();
+            car3.Show();
             car3.Show();
 
-
+            ////////////////////////////////////////
             // 싱글톤 객체 
+            ////////////////////////////////////////            
             Calc cal1 = Calc.Instance;            
             Calc cal2 = Calc.Instance; // cal1과 ca2는 서로 같은 객체를 참조           
 
