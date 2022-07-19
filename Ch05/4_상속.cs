@@ -53,7 +53,7 @@ namespace Ch05
 
     internal class _4_상속
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             // 상속 객체 생성
             Child c1 = new Child(1, 2, 3, 4);
@@ -74,6 +74,12 @@ namespace Ch05
             sedan.Show();
             truck.Show();
 
+            // Account 상속 객체 생성
+            StockAccount kb = new StockAccount("KB증권", "101-1212-1001", "홍길동", 10000, "삼성전자", 0, 0);
+            kb.Deposit(1000000);
+            kb.Buy(10, 50000);
+            kb.Sell(5, 52000);
+            kb.Show();
         }
     }
 }
