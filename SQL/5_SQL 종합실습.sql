@@ -213,14 +213,11 @@ WHERE a.`name` = '김유신' AND `year`=2019;
 
 #확인3. 2019년 50,000이상의 매출에 대해 직원별 매출의 합이 100,000원 이상인 직원의
 #이름, 부서명, 직급, 년도, 매출 합을 조회하시오. 단, 매출 합이 큰 순서부터 정렬
-SELECT b.`name`, c.`name`, b.`pos`, `year`, SUM(`sale`) AS `매출합`
-FROM `Sales`   AS a
+SELECT a.`uid`, b.`name`, c.`name`, b.`pos`, `year`, SUM(`sale`) AS `매출합`
+FROM `Sales`  AS a
 JOIN `Member` AS b ON a.uid=b.uid
 JOIN `Department` AS c ON b.dep=c.depNo
 WHERE `sale` >= 50000 AND `year`=2019
 GROUP BY a.`uid`
 HAVING `매출합` >= 100000
 ORDER BY `매출합` DESC;
-
-
-
