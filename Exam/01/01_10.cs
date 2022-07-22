@@ -8,7 +8,7 @@ namespace Exam._01
 {
     internal class _01_10
     {
-		static void Main(string[] args)
+		static void Main1(string[] args)
 		{
 			int n1 = 0;
 			int n2 = 1;
