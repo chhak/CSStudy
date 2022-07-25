@@ -1,0 +1,15 @@
+C:\Users\502\Desktop\CSStudy\Ch07\bin\Debug\net6.0\Ch07.exe
+C:\Users\502\Desktop\CSStudy\Ch07\bin\Debug\net6.0\Ch07.deps.json
+C:\Users\502\Desktop\CSStudy\Ch07\bin\Debug\net6.0\Ch07.runtimeconfig.json
+C:\Users\502\Desktop\CSStudy\Ch07\bin\Debug\net6.0\Ch07.dll
+C:\Users\502\Desktop\CSStudy\Ch07\bin\Debug\net6.0\Ch07.pdb
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\Ch07.csproj.AssemblyReference.cache
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\Ch07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\Ch07.AssemblyInfoInputs.cache
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\Ch07.AssemblyInfo.cs
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\Ch07.csproj.CoreCompileInputs.cache
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\Ch07.dll
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\refint\Ch07.dll
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\Ch07.pdb
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\Ch07.genruntimeconfig.cache
+C:\Users\502\Desktop\CSStudy\Ch07\obj\Debug\net6.0\ref\Ch07.dll
