@@ -27,7 +27,7 @@ namespace Exam._06
 
             var result = from person in people
                          where person.Scores.Average() >= 60
-                         ???????????????????????????????????????
+                         orderby person.Scores.Average() descending
                          select new
                          {
                              Name = person.Name,

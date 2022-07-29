@@ -15,9 +15,9 @@ namespace Exam._06
             ////////////////////////////////////////////////
             LinkedList<string> lkList = new LinkedList<string>();
 
-            lkList.????????("김유신");
-            lkList.???????? ("김춘추");
-            lkList.???????? ("장보고");
+            lkList.AddFirst("김유신");
+            lkList.AddFirst("김춘추");
+            lkList.AddFirst("장보고");
             lkList.AddLast("강감찬");
             lkList.AddLast("이순신");
             lkList.AddLast("정약용");
@@ -37,7 +37,7 @@ namespace Exam._06
             ////////////////////////////////////////////////
             // SortedList 실습
             ////////////////////////////////////////////////
-            SortedList<????????> stList = new SortedList<????????> ();
+            SortedList<int, string> stList = new SortedList<int, string>();
             stList.Add(101, "한국");
             stList.Add(104, "중국");
             stList.Add(106, "대만");

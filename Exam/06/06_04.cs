@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exam._06
 {
-    public delegate ??????????????????
+    public delegate bool What(int x);
 
     internal class _06_04
     {

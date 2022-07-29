@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,9 +24,9 @@ namespace Exam._06
     {
         private const string SERVER = "127.0.0.1";
         private const string PORT = "3306";
-        private const string USERNAME = "????????";
-        private const string PASSWORD = "????????";
-        private const string DATABASE = "????????";
+        private const string USERNAME = "root";
+        private const string PASSWORD = "1234";
+        private const string DATABASE = "userdb";
         private const string TABLE = "user2";
 
         private static DataManager instance = new DataManager();
@@ -44,7 +45,7 @@ namespace Exam._06
             return conn;
         }
 
-        public int ????????????????()
+        public int InsertUser()
         {
             Console.Write("아이디 : ");
             string uid = Console.ReadLine();
@@ -83,7 +84,7 @@ namespace Exam._06
             return count;
         }
 
-        public User ????????????????()
+        public User SelectUser()
         {
             Console.Write("이름검색 : ");
             string name = Console.ReadLine();
@@ -122,7 +123,7 @@ namespace Exam._06
             return user;
         }
 
-        public List<User> ????????????????()
+        public List<User> SelectUserAll()
         {
             List<User> users = new List<User>();
             MySqlConnection conn = null;
@@ -158,7 +159,7 @@ namespace Exam._06
             return users;
         }
 
-        public int ????????????????()
+        public int DeleteUser()
         {
             Console.Write("이름삭제 : ");
             string name = Console.ReadLine();

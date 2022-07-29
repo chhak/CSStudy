@@ -21,7 +21,7 @@ namespace Exam._06
             Console.WriteLine("짝수 갯수 : " + n2);
         }
 
-        public static int Count(int[] arr, ????????????????????????)
+        public static int Count(int[] arr, MyDelegate my)
         {
             int cnt = 0;
 
@@ -35,12 +35,12 @@ namespace Exam._06
             return cnt;
         }
 
-        public static ?????? IsOdd(int n)
+        public static bool IsOdd(int n)
         {
             return n % 2 != 0;
         }
 
-        public static ?????? IsEven(int n)
+        public static bool IsEven(int n)
         {
             return n % 2 == 0;
         }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,9 +14,9 @@ namespace Exam._06
             // 데이터베이스 접속 정보
             string server = "127.0.0.1";
             string port = "3306";
-            string username = "????????";
-            string password = "????????";
-            string database = "????????";
+            string username = "root";
+            string password = "1234";
+            string database = "userdb";
 
             Console.WriteLine("********************************");
             Console.WriteLine("데이터 매니저 프로그램 v1.0");
@@ -62,7 +63,7 @@ namespace Exam._06
                         cmd.CommandText = "INSERT INTO `user2`" +
                         " VALUES ('" + uid + "','" + name + "','" + hp + "'," + age + ")";
 
-                        ????????????????????????
+                        cmd.ExecuteNonQuery();
                     }
                     catch (Exception e)
                     {
@@ -84,7 +85,7 @@ namespace Exam._06
                         MySqlCommand cmd = conn.CreateCommand();
                         cmd.CommandText = "SELECT * FROM `user2`";
 
-                        MySqlDataReader reader = ????????????????????????
+                        MySqlDataReader reader = cmd.ExecuteReader();
                         while (reader.Read())
                         {
                             Console.WriteLine("{0},{1},{2},{3}", reader[0],
